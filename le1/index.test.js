@@ -26,9 +26,12 @@
 // expect(minus(3, 3)).toBe(9);
 
 const { expect } = require('@jest/globals');
-const { add, minus } = require('./index')
+// const { add, minus } = require('./index')
+import { add, minus } from './index'
 
 test('测试加法', () => {
   expect(add(3, 3)).toBe(6)
 });
-
+test('测试减法', () => {
+  expect(minus(3, 3)).toBe(0)
+});
