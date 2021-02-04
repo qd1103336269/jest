@@ -126,7 +126,7 @@ test('测试toBeCloseTo', () => {
 // string
 test('测试toMatch', () => {
   const str = "www.baidu.com"
-  expect(str).toMatch(/www/);
+  expect(str).toMatch(/baidu/);
 });
 
 // array 匹配器
