@@ -126,14 +126,14 @@ test('测试toBeCloseTo', () => {
 // string
 test('测试toMatch', () => {
   const str = "www.baidu.com"
-  expect(str).toMatch(/www/);
+  expect(str).toMatch(/baidu/);
 });
 
 // array 匹配器
 test('测试toContain', () => {
-  const arr = ['dell1', 'ausa', 'huawei']
+  const arr = ['dell', 'ausa', 'huawei']
   const data = new Set(arr)
-  expect(data).toContain('dell1');
+  expect(data).toContain('ausa');
 });
 
 

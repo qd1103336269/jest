@@ -10,14 +10,16 @@ export function minus(a, b) {
 export function mulit(a, b) {
   return a * b;
 }
-
+export function sort(a, b) {
+  return a / b;
+}
 // try {
 //   module.exports = {
-//     add, 
+//     add,
 //     minus
 //   }
-  
+
 // } catch (error) {
-  
+
 // }
 
